@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
   <title>샴 고양이</title>
   <style>
     body {
@@ -19,13 +19,13 @@
       margin: 20px auto;
       padding: 20px;
       background-color: #fff;
-      border-radius: 10px;
+      border-radius: 20px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
 
     h1,
     h2 {
-      color: #333;
+      color: #444;
       text-align: center;
     }
 
@@ -36,6 +36,12 @@
       margin: 20px auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ddd;
+      margin: 20px 0;
     }
 
     table {
@@ -72,40 +78,28 @@
     }
 
     a {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
+      display: block;
+      padding: 10px;
+      background-color: #ffffe0;
+      color: #000000;
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
 
     a:hover {
-      background-color: #0056b3;
+      background-color: #6a5acd;
+      color: #fff;
     }
 
     .section {
       margin-bottom: 30px;
       padding-bottom: 20px;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 2px solid #ddd;
     }
 
     .section:last-child {
       border-bottom: none;
-    }
-
-    /* 다양한 정보를 구분하기 위한 추가 스타일 */
-    .info-heading {
-      color: #333;
-    }
-
-    .info-content {
-      color: #555;
-    }
-
-    .info-list {
-      color: #666;
     }
   </style>
 </head>
@@ -113,9 +107,10 @@
 <body>
   <div class="container">
     <h1>샴 고양이 정보</h1>
+    <hr>
+    <img src="샴.jpg" alt="샴 고양이">
     <div class="section">
       <h2>샴 고양이 정보</h2>
-      <img src="샴.jpg" alt="샴 고양이">
       <p class="info-content">샴 고양이는 사람을 좋아하고 활발한 성격으로 잘 알려져 있으며, 아름다운 외모와 상냥한 성격을 가지고 있습니다.</p>
     </div>
 
